@@ -1,0 +1,36 @@
+.navbar{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.navbar h1{
+  /* margin-left: 20px; */
+  color: rgb(245, 52, 235) ;
+  margin-left: 100px;
+}
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    color:black;
+    font-size: 20px;
+}
+.navbar button{
+    color:black;
+    margin-right: 150px;
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+    background:  rgb(247, 161, 232);
+    cursor: pointer;
+} 
+.navbar-menu li:hover{
+    color:rgb(184, 7, 154) ;
+    cursor: pointer;
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.3);
+    
+}

@@ -1,0 +1,117 @@
+.background{
+    height: 500px;
+    width: 1050px;
+    background-color: rgb(245, 174, 235);
+    margin-left: 140px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+
+   }
+   .background-content1{
+           position: absolute;
+          font-size: 60px;
+          padding: 20px;
+          margin-left: 100px;
+          padding-top: 70px;
+          transition: transform .1s;
+        
+   }
+   .background-content1:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+   .background-content2{
+    position: absolute;
+    font-size: 50px;
+    margin-top: 150px;
+    margin-left: 80px;
+
+    
+        
+  }
+
+   .background-content3{
+    position: absolute;
+    font-size: 50px;
+    margin-top: 210px;
+    margin-left: 80px;
+   }
+   .button1{
+    position: absolute;
+    font-size: 20px;
+    height: 50px;
+    width: 250px;
+    margin-top: 350px;
+    margin-left: 75px;
+    background-color:rgb(245, 52, 235) ;
+    border-radius: 30px;
+   }
+   .background-content2 span{
+    color: rgb(245, 52, 235);
+   }
+   .background-content3 span{
+    color: rgb(245, 52, 235);
+   }
+
+
+   .difination{
+    margin: 120px;
+    margin-right: 700px;
+    text-align: justify;
+    font-size: 21px;
+    margin-left: 150px;
+    transition: transform .2s;
+   }
+   .difination:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+
+   .electric1{
+    position: absolute;
+    bottom: 0px;
+    top: 700px;
+    height: 280px;
+    left: 700px;
+    transition: transform .2s;
+   
+   }
+   .electric1:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+    
+  }
+
+
+  .heading22{
+    position: absolute;
+    font-size: 60px;
+    margin-left: 400px;
+    bottom: 0px;
+    top: 1000px;
+    
+    
+  }
+.icon1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+  } 
+  .background2{
+    height: 500px;
+    width: 1150px;
+    background-color: rgb(224, 179, 243);
+    margin-top: 60px;
+    margin-left: 100px;
+    border-radius: 30px;
+  }
+  
+      
+    
+  
+   
