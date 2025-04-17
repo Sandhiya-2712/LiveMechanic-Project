@@ -35,7 +35,7 @@ app.post("/register-mechanic", (req, res) => {
 // Search Mechanics by Place (GET Request)
 app.get("/mechanics", (req, res) => {
   const { place } = req.query;
-  const sql = "SELECT * FROM mechanics WHERE place = ?";
+  const sql = "SELECT name, phone, place FROM mechanics WHERE place = ?";
   db.query(sql, [place], (err, results) => {
     if (err) return res.status(500).json({ error: err.message });
     res.json(results);
