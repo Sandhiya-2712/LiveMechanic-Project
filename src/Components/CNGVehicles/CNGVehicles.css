@@ -1,0 +1,151 @@
+.backhead{
+    height: 500px;
+    width: 1260px;
+    background-color: rgb(65, 104, 65);
+    margin-top: 50px;
+    margin-left: 60px;
+    border-radius: 30px;
+}
+.cng1{
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    margin-left: 650px;
+    margin-top: 100px;
+    border-radius: 90px;
+}
+.cngcon1{
+    position: absolute;
+    color: white;
+    margin-top: 110px;
+    font-size: 35px;
+    margin-left: 80px;
+}
+.cngcon2{
+    position: absolute;
+    color: rgb(24, 206, 17);
+    margin-top: 160px;
+    font-size: 70px;
+    margin-left: 80px;
+}
+.cngcon3{
+    position: absolute;
+    color: rgb(233, 245, 71);
+    margin-top: 230px;
+    font-size: 70px;
+    margin-left: 80px;
+}
+.cngcon4{
+    position: absolute;
+    color: rgb(194, 194, 194);
+    margin-top: 320px;
+    font-size: 20px;
+    margin-left: 80px;
+    width: 500px;
+}
+.cngcon5{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 90px;
+    margin-left: 520px;
+}
+.cngcon6{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 140px;
+    margin-left: 450px;
+}
+.cngcon7{
+    
+    position: absolute;
+    margin-top: 240px;
+    font-size: 25px;
+    color: green;
+    margin-left: 60px;
+}
+.cngcon8{
+    position: absolute;
+    margin-top: 290px;
+    width: 300px;
+    margin-left: 40px;
+
+}
+.cngcon9{
+    position: absolute;
+    margin-top: 240px;
+    font-size: 25px;
+    color: green;
+    margin-left: 440px;
+}
+.cngcon10{
+    position: absolute;
+    margin-top: 290px;
+    width: 390px;
+    margin-left: 420px;
+
+}
+.cngcon11{
+    position: absolute;
+    margin-top: 240px;
+    font-size: 25px;
+    color: green;
+    margin-left: 980px;
+}
+.cngcon12{
+    position: absolute;
+    margin-top: 290px;
+    width: 300px;
+    margin-left: 950px;
+
+
+}
+.backhead3{
+    margin: 30px;
+}
+.cngf1{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 90px;
+    font-size: 60px;
+    color: green;
+
+}
+.cngf2{
+    position: absolute;
+    margin-top: 580px;
+    margin-left: 90px;
+    font-size: 30px;
+    color: rgb(0, 172, 0);
+
+}
+.cngf3{
+    position: absolute;
+    margin-top: 620px;
+    margin-left: 90px;
+    font-size: 18px;
+    width: 600px;
+    
+
+}
+.button4{
+    position: absolute;
+    height: 50px;
+    width: 230px;
+    font-size: 20px;
+    margin-top: 740px;
+    margin-left: 90px;
+    background-color: rgb(38, 211, 38);
+    border-radius: 30px;
+
+}
+.cng2{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 800px;
+    height: 300px;
+    width: 450px;
+    border-radius: 60px;
+}
+
+
+

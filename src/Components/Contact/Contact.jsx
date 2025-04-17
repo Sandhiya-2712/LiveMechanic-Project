@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import './Contact.css'; // Custom CSS for styling
+import Contactimage1 from '../../assets/Contactimage1.png';
+import { MdLocationPin } from "react-icons/md";
 
 const Contact = () => {
   const form = useRef();
@@ -31,6 +33,7 @@ const Contact = () => {
   };
 
   return (
+    <>
     <div className="contact-container">
       <div className="heading1">
         
@@ -53,7 +56,28 @@ const Contact = () => {
         <div className="heading4">Anywhere</div>
         <div className="heading5">Anytime & anyplace </div>
         <div className="heading6">best services in our city </div>
+        <div className="heading7">Email: PedalPartner@gmail.com</div>
+        <div className="heading8">Phone: 8765456432</div>
     </div>
+   <img className="Contactimage1" src={Contactimage1} alt="" />
+    
+    <div className="con-content1">The Live Mechanic Location Finder is a feature that helps users find nearby mechanics in real time based on their selected location. When a user clicks the "Find Mechanic" button, the system retrieves registered mechanics' details from the backend and displays them on a map. The feature integrates with the Google Maps API to show mechanics' locations visually. Users can enter a location or select from predefined areas to filter mechanics accordingly. The backend stores mechanic details, including name, contact, and service location.</div>
+    
+    <div className="con-icon1"><MdLocationPin size={30} color="red"/></div>
+    <div className="con-icon2"><MdLocationPin size={30} color="red"/></div>
+    <div className="con-icon3"><MdLocationPin size={30} color="red"/></div>
+    <div className="con-icon4"><MdLocationPin size={30} color="red"/></div>
+    
+    <div className="con-content2">Location Finder</div>
+    
+    <div className="con-content3">Live MechanicDisplay</div>
+    
+    <div className="con-content4">Location Filtering</div>
+    <div className="con-content5">Contect Any Time</div>
+
+
+    
+    </>
   );
 };
 

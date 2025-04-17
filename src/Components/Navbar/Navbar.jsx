@@ -9,12 +9,13 @@ const Navbar = () => {
       <h1>Pedal Partner</h1>
       <ul className="navbar-menu">
         <li><Link to="/">Home</Link></li> {/* Link to Home page */}
-        <li><Link to="/vehicles">Vehicles</Link></li> {/* Link to Vehicles page */}
-        <li><Link to="/services">Services</Link></li> {/* Link to Services page */}
-        <li><Link to="/electric-vehicles">Electric Vehicles</Link></li> {/* Link to Electric Vehicles page */}
-        <li><Link to="/contact">Contact</Link></li> {/* Link to Contact page */}
+        <li><Link to="/services">Services</Link></li> 
+        <li><Link to="/cng-vehicles">CNGVehicles</Link></li> 
+        <li><Link to="/registration">Registration</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
+         
       </ul>
-      <button>Sign in</button>
+     
     </div>
   );
 };

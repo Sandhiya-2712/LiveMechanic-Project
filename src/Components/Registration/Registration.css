@@ -1,0 +1,240 @@
+.register-container {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(123, 76, 250);
+  height: 500px;
+  width: 1200px;
+  border-radius: 30px;
+  margin: 60px;
+  
+}
+
+.register-container h2{
+   position: relative;
+   font-size: 40px;
+   margin-left: 490px;
+   padding: 50px;
+   color: rgb(25, 191, 233);
+}
+.register-container input {
+  display: block;
+  
+  margin: 10px auto;
+  padding: 10px;
+  width: 30%;
+  border-radius: 30px;
+  margin-left: 630px;
+  top: 100px;
+}
+
+.register-container button {
+  padding: 10px;
+  background-color: rgb(255, 0, 234);
+  color: white;
+  border: none;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-left: 430px;
+  margin-top: 30px;
+}
+
+.register-container p {
+  color: green;
+  font-weight: bold;
+}
+
+.mec-con1{
+  position: absolute;
+  /* margin-right: 100px; */
+  bottom: 350px;
+  font-size: 90px;
+  color: white;
+  margin-left: 60px;
+}
+.mec-con2{
+  position: absolute;
+  /* margin-right: 100px; */
+  bottom: 250px;
+  font-size: 90px;
+  color: white;
+  margin-left: 60px;
+}
+.mec-con3{
+  position: absolute;
+  bottom: 200px;
+  margin-left: 60px;
+  width: 400px;
+  text-align: justify;
+  color:yellow;
+}
+.mec-con4{
+  position: absolute;
+ bottom: 150px;
+ margin-left: 60px;
+ font-size: 20px;
+ color: white;
+}
+.mec-con5{
+  position: absolute;
+ bottom: 120px;
+ margin-left: 60px;
+ font-size: 20px;
+ color: yellowgreen;
+}
+.regimg1{
+  position:absolute ;
+  width: 240px;
+  height: 400px;
+  margin-left: 70px;
+  border-radius: 30px;
+}
+.regimg2{
+  position:absolute ;
+  width: 240px;
+  height: 300px;
+  margin-left: 340px;
+  border-radius: 30px;
+}
+.mec-con6{
+  position: absolute;
+  margin-left: 700px;
+  font-size: 40px;
+  width: 400px;
+}
+.mec-con7{
+  position: absolute;
+  margin-left: 700px;
+  font-size: 20px;
+  width: 530px;
+  margin-top: 100px;
+  color: gray;
+}
+.reg-icon1{
+  position: absolute;
+  margin-left: 700px;
+  margin-top: 300px;
+}
+.reg-icon2{
+  position: absolute;
+  margin-left: 970px;
+  margin-top: 300px;
+}
+.reg-con1{
+  position: absolute;
+  margin-left: 730px;
+  margin-top: 304px;
+}
+.reg-con2{
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: 300px;
+}
+.reg-icon3{
+  position: absolute;
+  margin-left: 700px;
+  margin-top: 350px;
+}
+.reg-con3{
+  position: absolute;
+  margin-left: 730px;
+  margin-top: 354px;
+}
+.reg-con4{
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: 355px;
+}
+.reg-icon4{
+  position: absolute;
+  margin-left: 970px;
+  margin-top: 350px;
+}
+.reg-icon5{
+  position: absolute;
+  margin-left: 700px;
+  margin-top: 400px;
+}
+.reg-con5{
+  position: absolute;
+  margin-left: 730px;
+  margin-top: 400px;
+}
+
+.register-con1{
+  position: absolute;
+  margin-top: 520px;
+  margin-left: 450px;
+  font-size: 50px;
+}
+.register-con2{
+  position: absolute;
+  margin-top: 580px;
+  margin-left: 400px;
+  font-size: 50px;
+}
+.register-con3{
+position: absolute;
+margin-top: 700px;
+margin-left: 100px;
+font-size: 20px;
+color: blue;
+}
+.register-con4{
+  position: absolute;
+  margin-top: 740px;
+  left: 100px;
+  width: 490px;
+ }
+ .register-con5{
+  position: absolute;
+  margin-top: 700px;
+  margin-left: 750px;
+  font-size: 20px;
+  color: blue;
+  }
+  .register-con6{
+    position: absolute;
+    margin-top: 740px;
+    left: 750px;
+    width: 490px;
+   }
+   .regimg3{
+    position: absolute;
+    margin-top: 880px;
+    margin-left: 990px;
+    height: 400px;
+    width: 250px;
+    border-radius: 30px;
+   }
+   .regimg4{
+    position: absolute;
+    margin-top: 880px;
+    margin-left: 790px;
+    height: 200px;
+    border-radius: 30px;
+   }
+   .regimg5{
+    position: absolute;
+    margin-top: 1090px;
+    margin-left: 790px;
+    height: 190px;
+    width: 190px;
+    border-radius: 30px;
+   }
+   .register-con7{
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 80px;
+    font-size: 30px;
+   }
+   .register-con8{
+    position: absolute;
+    margin-top: 960px;
+    margin-left: 80px;
+    width: 600px;
+    font-size: 20px;
+   }
+
+  

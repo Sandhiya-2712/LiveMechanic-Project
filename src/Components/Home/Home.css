@@ -1,117 +1,270 @@
-.background{
-    height: 500px;
-    width: 1050px;
-    background-color: rgb(245, 174, 235);
-    margin-left: 140px;
-    margin-top: 20px;
-    border-radius: 10px;
-    position: relative;
-
-   }
-   .background-content1{
-           position: absolute;
-          font-size: 60px;
-          padding: 20px;
-          margin-left: 100px;
-          padding-top: 70px;
-          transition: transform .1s;
-        
-   }
-   .background-content1:hover {
-    -ms-transform: scale(1.1); /* IE 9 */
-    -webkit-transform: scale(1.1); /* Safari 3-8 */
-    transform: scale(1.1); 
-  }
-   .background-content2{
-    position: absolute;
-    font-size: 50px;
-    margin-top: 150px;
-    margin-left: 80px;
-
-    
-        
-  }
-
-   .background-content3{
-    position: absolute;
-    font-size: 50px;
-    margin-top: 210px;
-    margin-left: 80px;
-   }
-   .button1{
-    position: absolute;
-    font-size: 20px;
-    height: 50px;
-    width: 250px;
-    margin-top: 350px;
-    margin-left: 75px;
-    background-color:rgb(245, 52, 235) ;
-    border-radius: 30px;
-   }
-   .background-content2 span{
-    color: rgb(245, 52, 235);
-   }
-   .background-content3 span{
-    color: rgb(245, 52, 235);
-   }
-
-
-   .difination{
-    margin: 120px;
-    margin-right: 700px;
-    text-align: justify;
-    font-size: 21px;
-    margin-left: 150px;
-    transition: transform .2s;
-   }
-   .difination:hover {
-    -ms-transform: scale(1.1); /* IE 9 */
-    -webkit-transform: scale(1.1); /* Safari 3-8 */
-    transform: scale(1.1); 
-  }
-
-   .electric1{
-    position: absolute;
-    bottom: 0px;
-    top: 700px;
-    height: 280px;
-    left: 700px;
-    transition: transform .2s;
-   
-   }
-   .electric1:hover {
-    -ms-transform: scale(1.1); /* IE 9 */
-    -webkit-transform: scale(1.1); /* Safari 3-8 */
-    transform: scale(1.1); 
-    
-  }
-
-
-  .heading22{
-    position: absolute;
-    font-size: 60px;
-    margin-left: 400px;
-    bottom: 0px;
-    top: 1000px;
-    
-    
-  }
-.icon1{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-    
-  } 
-  .background2{
-    height: 500px;
-    width: 1150px;
-    background-color: rgb(224, 179, 243);
-    margin-top: 60px;
-    margin-left: 100px;
-    border-radius: 30px;
-  }
+/* Home Page Background */
+.home-container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
   
-      
-    
+  min-height: 100vh;
+}
+
+/* Animated Title */
+.animated-title {
+  position: absolute;
+  height: 210px;
+  width: 1000px;
+  font-size: 2.2rem;
+  font-weight: bold;
+  background-color: #eb71c6;
+  animation: fadeIn 2s ease-in-out;
+  margin-left: 150px;
+  border-radius: 30px;
+  padding: 20px;
+ 
+}
+.title-content1{
+  position: absolute;
+  width: 800px;
+  left: 290px;
+  top: 190px;
+}
+
+/* Search Section */
+.search-section {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 500px;
+  background: rgba(238, 233, 235, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  animation: slideIn 1s ease-in-out;
+  margin-top: 250px;
+ 
+}
+.search-section  h2{
+  font-size: 30px;
+  color: #ec1cae;
+}
+
+.search-input {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-btn {
+ 
+  padding: 10px 15px;
+  background-color: #f077e6;
+  color: rgb(17, 16, 16);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
   
-   
+  transition: 0.3s ease-in-out;
+  right: 30px;
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Clear Button */
+.clear-btn {
+  padding: 10px 15px;
+  background-color: #399ca0;
+  color: rgb(27, 23, 23);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.clear-btn:hover {
+  background-color: #b02a37;
+  transform: scale(1.05);
+}
+
+/* Loading Animation */
+.loading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  animation: fadeIn 1s infinite alternate;
+}
+
+/* Mechanic Grid Layout */
+.mechanic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  opacity: 0;
+   animation: fadeIn 1s forwards;
+}
+
+/* Individual Mechanic Card */
+.mechanic-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  animation: slideIn 1s ease-in-out;
+}
+
+.mechanic-card:hover {
+  transform: translateY(-5px);
+}
+
+.mechanic-card h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.mechanic-card p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+/* No Mechanics Found Message */
+.no-mechanic {
+  font-size: 18px;
+  color: red;
+  font-weight: bold;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+
+.electricimage{
+  position: absolute;
+  height: 250px;
+  right: 780px;
+border-radius: 30px;
+
+}
+.electrical-content1{
+  position: absolute;
+  width: 600px;
+  margin-left: 600px;
+  font-size: 20px;
+}
+.heading-content1{
+  position: absolute;
+  margin-top: 350px;
+  left: 520px;
+  font-size: 30px;
+  color: rgb(206, 41, 156);
+}
+.heading-content2{
+  position: absolute;
+  margin-top: 400px;
+  width: 1200px;
+  left: 80px;
+
+}
+.Footer-content{
+  position: absolute;
+  background-color: rgb(54, 54, 247);
+  height: 400px;
+  width: 1200px;
+  top: 1150px;
+  margin-left: 60px;
+  border-radius: 30px;
+}
+.Footer-content1{
+  position: absolute;
+  font-size: 40px;
+  color: white;
+  margin-left: 200px;
+margin-top: 70px;
+}
+.Footer-content2{
+  position: absolute;
+  font-size: 35px;
+  color: white;
+  margin-left: 180px;
+margin-top: 120px;
+}
+.home-icon1{
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 100px;
+}
+.home-icon2{
+  position: absolute;
+  margin-top: 240px;
+  margin-left: 100px;
+}
+.home-icon3{
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 100px;
+}
+.icon-content1{
+  position: absolute;
+  margin-top: 185px;
+  margin-left: 150px;
+  font-size: 27px;
+  color: wheat;
+}
+.icon-content2{
+  position: absolute;
+  margin-top: 244px;
+  margin-left: 150px;
+  font-size: 27px;
+  color: wheat;
+}
+.icon-content3{
+  position: absolute;
+  margin-top: 310px;
+  margin-left: 150px;
+  font-size: 27px;
+  color: wheat;
+}
+.Mech-image1{
+  position: absolute;
+  margin-left: 130px;
+  margin-top: 80px;
+  height: 250px;
+  border-radius: 30px;
+}
+.Mech-image2{
+  position: absolute;
+  margin-top: 1100px;
+ right: 800px;
+ height: 300px;
+ border-radius: 30px;
+}
+.Mech-content1{
+  position: absolute;
+  margin-top: 1130px;
+  width: 600px;
+  margin-left: 600px;
+  font-size: 20px;
+}
